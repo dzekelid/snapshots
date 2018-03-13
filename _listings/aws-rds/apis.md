@@ -28,7 +28,7 @@ apis:
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/snapshots/master/_listings/aws-rds/action-modifydbsnapshotattribute-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/snapshots/master/_listings/aws-rds/action-restoredbclusterfromsnapshot-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
