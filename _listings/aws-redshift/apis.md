@@ -30,7 +30,7 @@ apis:
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/snapshots/master/_listings/aws-redshift/action-authorizesnapshotaccess-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/snapshots/master/_listings/aws-redshift/action-copyclustersnapshot-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
