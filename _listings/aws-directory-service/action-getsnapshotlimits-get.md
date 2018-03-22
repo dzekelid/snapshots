@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=GetSnapshotLimits&k=1:
+  /?Action=GetSnapshotLimits:
     get:
       summary: ' Get Snapshot Limits '
       description: Obtains the manual snapshot limits for a directory
