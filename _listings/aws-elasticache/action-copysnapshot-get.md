@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CopySnapshot&k=1:
+  /?Action=CopySnapshot:
     get:
       summary: ' Copy Snapshot '
       description: Makes a copy of an existing snapshot
