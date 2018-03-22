@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDBSnapshot&k=1:
+  /?Action=DeleteDBSnapshot:
     get:
       summary: Delete D B Snapshot
       description: Deletes a DBSnapshot
