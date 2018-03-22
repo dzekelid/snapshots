@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateSnapshotFromVolumeRecoveryPoint&k=1:
+  /?Action=CreateSnapshotFromVolumeRecoveryPoint:
     get:
       summary: ' Create Snapshot From Volume Recovery Point '
       description: Initiates a snapshot of a gateway from a volume recovery point
