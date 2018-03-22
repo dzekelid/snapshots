@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreDBClusterFromSnapshot&k=1:
+  /?Action=RestoreDBClusterFromSnapshot:
     get:
       summary: Restore D B Cluster From Snapshot
       description: Creates a new DB cluster from a DB cluster snapshot
