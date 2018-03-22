@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBClusterSnapshotAttributes&k=1:
+  /?Action=DescribeDBClusterSnapshotAttributes:
     get:
       summary: Describe D B Cluster Snapshot Attributes
       description: Returns a list of DB cluster snapshot attribute names and values
