@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteSnapshotSchedule&k=1:
+  /?Action=DeleteSnapshotSchedule:
     get:
       summary: ' Delete Snapshot Schedule '
       description: Deletes a snapshot of a volume
