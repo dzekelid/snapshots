@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDBSnapshotAttribute&k=1:
+  /?Action=ModifyDBSnapshotAttribute:
     get:
       summary: Modify D B Snapshot Attribute
       description: Adds an attribute and values to, or removes an attribute and values
