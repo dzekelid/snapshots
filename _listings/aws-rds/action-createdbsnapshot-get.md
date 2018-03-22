@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBSnapshot&k=1:
+  /?Action=CreateDBSnapshot:
     get:
       summary: Create D B Snapshot
       description: Creates a DBSnapshot
