@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ModifyDBClusterSnapshotAttribute&k=1:
+  /?Action=ModifyDBClusterSnapshotAttribute:
     get:
       summary: Modify D B Cluster Snapshot Attribute
       description: Adds an attribute and values to, or removes an attribute and values
