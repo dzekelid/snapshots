@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RestoreFromSnapshot&k=1:
+  /?Action=RestoreFromSnapshot:
     get:
       summary: ' Restore From Snapshot '
       description: Restores a directory using an existing directory snapshot
