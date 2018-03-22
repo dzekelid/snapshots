@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CopyDBSnapshot&k=1:
+  /?Action=CopyDBSnapshot:
     get:
       summary: Copy D B Snapshot
       description: Copies the specified DB snapshot
