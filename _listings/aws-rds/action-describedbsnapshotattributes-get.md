@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeDBSnapshotAttributes&k=1:
+  /?Action=DescribeDBSnapshotAttributes:
     get:
       summary: Describe D B Snapshot Attributes
       description: Returns a list of DB snapshot attribute names and values for a
