@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeSnapshotSchedule&k=1:
+  /?Action=DescribeSnapshotSchedule:
     get:
       summary: ' Describe Snapshot Schedule '
       description: Describes the snapshot schedule for the specified gateway volume
