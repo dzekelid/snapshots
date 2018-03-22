@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateDBClusterSnapshot&k=1:
+  /?Action=CreateDBClusterSnapshot:
     get:
       summary: Create D B Cluster Snapshot
       description: Creates a snapshot of a DB cluster
