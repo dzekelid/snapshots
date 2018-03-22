@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteDBClusterSnapshot&k=1:
+  /?Action=DeleteDBClusterSnapshot:
     get:
       summary: Delete D B Cluster Snapshot
       description: Deletes a DB cluster snapshot
