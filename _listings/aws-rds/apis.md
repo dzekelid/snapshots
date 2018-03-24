@@ -14,8 +14,8 @@ tags:
 - Stack
 - Database
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -28,7 +28,7 @@ apis:
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/action-restoredbclusterfromsnapshot-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/action-copydbclustersnapshot-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
