@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Create D B Cluster Snapshot
   version: 1.0.0
+  description: Creates a snapshot of a DB cluster.
 schemes:
 - http
 produces:
