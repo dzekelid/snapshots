@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Modify Snapshot Copy Retention Period
   version: 1.0.0
+  description: |-
+    Modifies the number of days to retain automated snapshots in the destination region
+                after they are copied from the source region.
 schemes:
 - http
 produces:
