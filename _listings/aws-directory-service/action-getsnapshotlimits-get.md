@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Get Snapshot Limits
   version: 1.0.0
+  description: Obtains the manual snapshot limits for a directory.
 schemes:
 - http
 produces:
