@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Create Snapshot
   version: 1.0.0
+  description: |-
+    Creates a copy of an entire cache cluster or replication group at a
+                specific moment in time.
 schemes:
 - http
 produces:
