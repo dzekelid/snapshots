@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Delete Snapshot Copy Grant
   version: 1.0.0
+  description: Deletes the specified snapshot copy grant.
 schemes:
 - http
 produces:
