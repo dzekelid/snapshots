@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Revoke Snapshot Access
   version: 1.0.0
+  description: |-
+    Removes the ability of the specified AWS customer account to restore the specified
+                snapshot.
 schemes:
 - http
 produces:
