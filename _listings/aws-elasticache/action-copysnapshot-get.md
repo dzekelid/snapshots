@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Copy Snapshot
   version: 1.0.0
+  description: Makes a copy of an existing snapshot.
 schemes:
 - http
 produces:
