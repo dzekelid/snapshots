@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Describe Snapshots
   version: 1.0.0
+  description: Obtains information about the directory snapshots that belong to this
+    account.
 schemes:
 - http
 produces:
