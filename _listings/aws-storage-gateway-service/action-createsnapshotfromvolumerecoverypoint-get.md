@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Create Snapshot From Volume Recovery Point
   version: 1.0.0
+  description: Initiates a snapshot of a gateway from a volume recovery point.
 schemes:
 - http
 produces:
