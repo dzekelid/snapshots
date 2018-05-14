@@ -31,17 +31,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-revokesnapshotaccess-get.md
-- name: Amazon Redshift API Authorize Snapshot Access
-  description: |-
-    Authorizes the specified AWS customer account to restore the specified
-                snapshot.
+- name: Amazon Redshift API Copy Cluster Snapshot
+  description: Copies the specified automated cluster snapshot to a new manual cluster
+    snapshot.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-authorizesnapshotaccess-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-copyclustersnapshot-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
