@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Enable Snapshot Copy
   version: 1.0.0
+  description: |-
+    Enables the automatic copy of snapshots from one region to another region for a
+                specified cluster.
 schemes:
 - http
 produces:
