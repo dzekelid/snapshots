@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Update Snapshot Schedule
   version: 1.0.0
+  description: Updates a snapshot schedule configured for a gateway volume.
 schemes:
 - http
 produces:
