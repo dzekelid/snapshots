@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Modify D B Snapshot Attribute
   version: 1.0.0
+  description: Adds an attribute and values to, or removes an attribute and values
+    from, a manual DB snapshot.
 schemes:
 - http
 produces:
