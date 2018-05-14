@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Copy Cluster Snapshot
   version: 1.0.0
+  description: Copies the specified automated cluster snapshot to a new manual cluster
+    snapshot.
 schemes:
 - http
 produces:
