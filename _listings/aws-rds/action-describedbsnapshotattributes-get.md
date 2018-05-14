@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Describe D B Snapshot Attributes
   version: 1.0.0
+  description: Returns a list of DB snapshot attribute names and values for a manual
+    DB snapshot.
 schemes:
 - http
 produces:
