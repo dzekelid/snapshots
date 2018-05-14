@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Describe Snapshot Copy Grants
   version: 1.0.0
+  description: |-
+    Returns a list of snapshot copy grants owned by the AWS account in the destination
+                region.
 schemes:
 - http
 produces:
