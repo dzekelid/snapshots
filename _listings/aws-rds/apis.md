@@ -29,15 +29,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/action-restoredbclusterfromsnapshot-get.md
-- name: Amazon RDS API Describe D B Snapshots
-  description: Returns information about DB snapshots.
+- name: Amazon RDS API Modify D B Cluster Snapshot Attribute
+  description: Adds an attribute and values to, or removes an attribute and values
+    from, a manual DB cluster snapshot.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/action-describedbsnapshots-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/action-modifydbclustersnapshotattribute-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
