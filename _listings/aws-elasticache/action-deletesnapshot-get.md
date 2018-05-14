@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS ElastiCache API
+  title: Amazon ElastiCache API Delete Snapshot
   version: 1.0.0
+  description: Deletes an existing snapshot.
 schemes:
 - http
 produces:
