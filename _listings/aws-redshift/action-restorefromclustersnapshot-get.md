@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Restore From Cluster Snapshot
   version: 1.0.0
+  description: Creates a new cluster from a snapshot.
 schemes:
 - http
 produces:
