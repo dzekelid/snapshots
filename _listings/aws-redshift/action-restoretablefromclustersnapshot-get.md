@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Restore Table From Cluster Snapshot
   version: 1.0.0
+  description: Creates a new table from a table in an Amazon Redshift cluster snapshot.
 schemes:
 - http
 produces:
