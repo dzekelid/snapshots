@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS RDS API
+  title: Amazon RDS API Copy D B Snapshot
   version: 1.0.0
+  description: Copies the specified DB snapshot.
 schemes:
 - http
 produces:
