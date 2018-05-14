@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-storage-gateway-service/action-updatesnapshotschedule-get.md
-- name: AWS Storage Gateway Service API Describe Snapshot Schedule
-  description: Describes the snapshot schedule for the specified gateway volume.
+- name: AWS Storage Gateway Service API Update Snapshot Schedule
+  description: Updates a snapshot schedule configured for a gateway volume.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: http:://{host}//
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-storage-gateway-service/action-describesnapshotschedule-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-storage-gateway-service/action-updatesnapshotschedule-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
