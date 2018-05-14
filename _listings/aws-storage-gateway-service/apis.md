@@ -35,15 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-storage-gateway-service/action-updatesnapshotschedule-get.md
-- name: AWS Storage Gateway Service API Create Snapshot
-  description: Initiates a snapshot of a volume.
+- name: AWS Storage Gateway Service API Create Snapshot From Volume Recovery Point
+  description: Initiates a snapshot of a gateway from a volume recovery point.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: http:://{host}//
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-storage-gateway-service/action-createsnapshot-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-storage-gateway-service/action-createsnapshotfromvolumerecoverypoint-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
