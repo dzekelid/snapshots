@@ -29,15 +29,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/action-restoredbclusterfromsnapshot-get.md
-- name: Amazon RDS API Delete D B Snapshot
-  description: Deletes a DBSnapshot.
+- name: Amazon RDS API Describe D B Cluster Snapshot Attributes
+  description: Returns a list of DB cluster snapshot attribute names and values for
+    a manual DB cluster snapshot.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRDS.png
   humanURL: https://aws.amazon.com/rds/
   baseURL: http:://{host}//
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/action-deletedbsnapshot-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-rds/action-describedbclustersnapshotattributes-get.md
 x-common:
 - type: x-articles
   url: https://aws.amazon.com/articles/Amazon-RDS
