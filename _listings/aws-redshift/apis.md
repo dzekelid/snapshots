@@ -31,18 +31,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-revokesnapshotaccess-get.md
-- name: Amazon Redshift API Create Snapshot Copy Grant
-  description: |-
-    Creates a snapshot copy grant that permits Amazon Redshift to use a customer master key
-                (CMK) from AWS Key Management Service (AWS KMS) to encrypt copied snapshots in a
-                destination region.
+- name: Amazon Redshift API Delete Cluster Snapshot
+  description: Deletes the specified manual snapshot.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-createsnapshotcopygrant-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-deleteclustersnapshot-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
