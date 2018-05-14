@@ -31,9 +31,9 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-revokesnapshotaccess-get.md
-- name: Amazon Redshift API Disable Snapshot Copy
+- name: Amazon Redshift API Enable Snapshot Copy
   description: |-
-    Disables the automatic copying of snapshots from one region to another region for a
+    Enables the automatic copy of snapshots from one region to another region for a
                 specified cluster.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
@@ -41,7 +41,7 @@ apis:
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-disablesnapshotcopy-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-enablesnapshotcopy-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
