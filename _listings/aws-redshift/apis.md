@@ -31,17 +31,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-revokesnapshotaccess-get.md
-- name: Amazon Redshift API Enable Snapshot Copy
+- name: Amazon Redshift API Modify Snapshot Copy Retention Period
   description: |-
-    Enables the automatic copy of snapshots from one region to another region for a
-                specified cluster.
+    Modifies the number of days to retain automated snapshots in the destination region
+                after they are copied from the source region.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Database_AmazonRedshift.png
   humanURL: https://aws.amazon.com/redshift/
   baseURL: http:://{host}//
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-enablesnapshotcopy-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-redshift/action-modifysnapshotcopyretentionperiod-get.md
 x-common:
 - type: x-best-practices
   url: https://aws.amazon.com/redshift/developer-resources/#best-practices
