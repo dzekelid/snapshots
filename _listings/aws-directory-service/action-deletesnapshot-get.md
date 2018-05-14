@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Directory Service API
+  title: AWS Directory Service API Delete Snapshot
   version: 1.0.0
+  description: Deletes a directory snapshot.
 schemes:
 - http
 produces:
