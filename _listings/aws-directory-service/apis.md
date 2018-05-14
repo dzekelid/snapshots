@@ -35,15 +35,16 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-directory-service/action-restorefromsnapshot-get.md
-- name: AWS Directory Service API Delete Snapshot
-  description: Deletes a directory snapshot.
+- name: AWS Directory Service API Describe Snapshots
+  description: Obtains information about the directory snapshots that belong to this
+    account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSDirectoryService.png
   humanURL: https://aws.amazon.com/directoryservice/
   baseURL: http:://{host}//
   tags: Snapshots
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-directory-service/action-deletesnapshot-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/snapshots/master/_listings/aws-directory-service/action-describesnapshots-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/reference/ds/index.html
