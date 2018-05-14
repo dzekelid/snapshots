@@ -1,8 +1,12 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Create Snapshot Copy Grant
   version: 1.0.0
+  description: |-
+    Creates a snapshot copy grant that permits Amazon Redshift to use a customer master key
+                (CMK) from AWS Key Management Service (AWS KMS) to encrypt copied snapshots in a
+                destination region.
 schemes:
 - http
 produces:
