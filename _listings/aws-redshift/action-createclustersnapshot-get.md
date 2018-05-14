@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Redshift API
+  title: Amazon Redshift API Create Cluster Snapshot
   version: 1.0.0
+  description: Creates a manual snapshot of the specified cluster.
 schemes:
 - http
 produces:
