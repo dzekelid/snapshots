@@ -1,4 +1,3 @@
----
 swagger: "2.0"
 x-collection-name: AWS Redshift
 x-complete: 1
@@ -517,4 +516,3 @@ paths:
           description: OK
       tags:
       - Snapshots
----

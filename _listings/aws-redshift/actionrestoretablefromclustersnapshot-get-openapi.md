@@ -490,6 +490,34 @@ paths:
           description: OK
       tags:
       - Snapshots
+  /?Action=RevokeSnapshotAccess:
+    get:
+      summary: Revoke Snapshot Access
+      description: |-
+        Removes the ability of the specified AWS customer account to restore the specified
+                    snapshot.
+      operationId: revokeSnapshotAccess
+      x-api-path-slug: actionrevokesnapshotaccess-get
+      parameters:
+      - in: query
+        name: AccountWithRestoreAccess
+        description: The identifier of the AWS customer account that can no longer
+          restore the specified            snapshot
+        type: string
+      - in: query
+        name: SnapshotClusterIdentifier
+        description: The identifier of the cluster the snapshot was created from
+        type: string
+      - in: query
+        name: SnapshotIdentifier
+        description: The identifier of the snapshot that the account can no longer
+          access
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snapshots
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0

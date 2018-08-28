@@ -93,6 +93,27 @@ paths:
           description: OK
       tags:
       - Snapshots
+  /?Action=CreateSnapshot:
+    get:
+      summary: Create Snapshot
+      description: Creates a snapshot of a Simple AD or Microsoft AD directory in
+        the AWS cloud.
+      operationId: createSnapshot
+      x-api-path-slug: actioncreatesnapshot-get
+      parameters:
+      - in: query
+        name: DirectoryId
+        description: The identifier of the directory of which to take a snapshot
+        type: string
+      - in: query
+        name: Name
+        description: The descriptive name to apply to the snapshot
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Snapshot
 x-streamrank:
   polling_total_time_average: 0
   polling_size_download_average: 0
